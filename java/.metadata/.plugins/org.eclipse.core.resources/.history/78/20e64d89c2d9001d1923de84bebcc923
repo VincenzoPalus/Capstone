@@ -1,0 +1,45 @@
+package Episodio2;
+
+import java.awt.BorderLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.*;
+
+
+public class Frame extends JFrame {
+	
+	private JTextArea textArea;
+	private JButton button;
+	
+
+	public Frame() {
+		
+		super("Modulo Cinema");
+		
+		setLayout(new BorderLayout());
+		
+		textArea = new JTextArea();
+		button = new JButton( "Cliccami");
+		
+		button.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				
+				textArea.append("testo apparso nella textaera \n");
+			}
+		});
+		
+		add(textArea, BorderLayout.CENTER);
+		add(button, BorderLayout.PAGE_START);
+		
+		setSize(800, 500);
+		//setLocation(200,200);
+		setLocationRelativeTo(null);
+		setResizable(false);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package Episodio2;
+
+import java.awt.BorderLayout;
+
+import javax.swing.*;
+import javax.awt.*;
+
+public class TextAreaPanel extends JPanel{
+	
+	private JTextArea textArea;
+	
+	public TextAreaPanel() {
+		
+		textArea new JTextArea();
+		
+		setLayout(new BorderLayout());
+		
+		add(textArea, BorderLayout.CENTER);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package Episodio2;
+
+import java.awt.Color;
+import java.awt.Dimension;
+import javax.swing.BorderFactory;
+import javax.swing.JPanel;
+import javax.swing.border.Border;
+
+public class PannelloForm extends JPanel {
+	PannelloForm() {
+		setPreferredSize(new Dimension(300,100));
+		
+		Border bordoInterno = BorderFactory.createTitledBorder("Aggiungi Film");
+		Border bordoEsterno = BorderFactory.createEmptyBorder(0, 5, 5, 5);
+		Border bordoFinale = BorderFactory.createCompoundBorder(bordoEsterno, bordoInterno);
+		
+		setBorder(bordoFinale);
+	}
+}

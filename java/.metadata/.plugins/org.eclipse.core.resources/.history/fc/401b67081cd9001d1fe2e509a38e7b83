@@ -1,0 +1,15 @@
+package Episodio2;
+
+import javax.swing.JFrame;
+
+public class tutorialframe {
+
+	public static void main(String[] args) {
+		
+		JFrame frame = new JFrame(title: "La nostra prima finestra");
+		
+		frame.setVisible(true);
+
+	}
+
+}

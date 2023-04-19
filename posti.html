@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stile.css" />
+    <title>Movie Seat Booking</title>
+  </head>
+  <body>
+    
+    <div class="movie-container">
+      <label> Scegli l'ora:</label>
+      <select id="movie">
+        <option value="220">10:30</option>
+        <option value="320">15:00</option>
+        <option value="250">18:30</option>
+        <option value="260">21:00</option>
+      </select>
+    </div>
+    
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>Disponibili</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Selezionati</small>
+      </li>
+      <li>
+        <div class="seat sold"></div>
+        <small>Occupati</small>
+      </li>
+    </ul>
+    <div class="container">
+      <div class="screen"></div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+
+    <p class="text">
+      Hai selezionato <span id="count">0</span> posti per un prezzo di €<span
+        id="total"
+        >0</span
+      >
+    </p>
+    <form action="conferma.html" target="_blank">
+      <button class="conferma" type="submit">
+       Conferma
+      </button>  
+    </form>
+    <form action="index.html" target="_blank">
+      <button class="back" type="submit">
+        Torna indietro
+      </button>  
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

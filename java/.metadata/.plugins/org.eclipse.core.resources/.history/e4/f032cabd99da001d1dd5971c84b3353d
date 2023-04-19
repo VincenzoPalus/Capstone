@@ -1,0 +1,14 @@
+package Episodio2;
+
+import java.awt.Color;
+import java.awt.Dimension;
+import javax.swing.BorderFactory;
+import javax.swing.JPanel;
+
+public class PannelloForm extends JPanel {
+	PannelloForm() {
+		setPreferredSize(new Dimension(300,100));
+		
+		setBorder(BorderFactory.createTitledBorder("Aggiungi Film"));
+	}
+}

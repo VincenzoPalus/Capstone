@@ -1,0 +1,21 @@
+package Episodio2;
+
+import javax.swing.*;
+
+public class Frame extends JFrame {
+	
+
+	public Frame() {
+		
+		super("titolo finestra");
+		
+		setSize(800, 500);
+		//frame.setLocation(200,200);
+		setLocationRelativeTo(null);
+		setResizable(false);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
+
+	}
+
+}

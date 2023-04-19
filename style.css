@@ -1,0 +1,11 @@
+
+.carousel-item
+{
+    height: 800px;
+    width: 100%;
+}
+footer
+{
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
