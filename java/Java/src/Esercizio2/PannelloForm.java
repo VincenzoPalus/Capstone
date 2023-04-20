@@ -1,4 +1,4 @@
-package Episodio2;
+package Esercizio2;
 
 import java.awt.Color;
 import java.awt.Dimension;

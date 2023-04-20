@@ -1,4 +1,4 @@
-package Episodio2;
+package Esercizio2;
 
 public class tutorialframe {
 
