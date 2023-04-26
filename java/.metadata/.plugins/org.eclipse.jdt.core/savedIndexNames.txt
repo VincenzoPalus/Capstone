@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Users\Vitek\OneDrive\Desktop\javaswing\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-3183112609.index
-189058962.index
